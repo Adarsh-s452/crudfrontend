@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Form, Modal } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Table.css'
 import { deleteuser, getuser } from './services/allAPI';
-import axios from 'axios';
 import Edit from './Edit';
 
 function Tables() {
