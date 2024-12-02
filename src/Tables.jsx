@@ -7,7 +7,6 @@ import Edit from './Edit';
 
 function Tables() {
   const [editResponse,setEditResponse]=useState('')
-  const [show, setShow] = useState(false);
   const [data,setData]=useState([])
 
 
