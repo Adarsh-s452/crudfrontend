@@ -1,0 +1,19 @@
+.btn-trash {
+    background-color: #dc3545; /* Bootstrap Danger Color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+  }
+
+  .btn-trash:hover {
+    background-color: #b02a37; /* Darker Danger Color */
+    color: #fff;
+  }
+
+  .btn-trash i {
+    font-size: 18px; /* Adjust icon size */
+  }
